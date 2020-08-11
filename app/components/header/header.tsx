@@ -9,9 +9,8 @@ import { translate } from "../../i18n/"
 const ROOT: ViewStyle = {
   flexDirection: "row",
   paddingHorizontal: spacing[4],
+  paddingVertical: spacing[4],
   alignItems: "center",
-  paddingTop: spacing[5],
-  paddingBottom: spacing[5],
   justifyContent: "flex-start",
 }
 const TITLE: TextStyle = { textAlign: "center" }

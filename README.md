@@ -1,5 +1,7 @@
 # GrowApp
 
+React Native Exploration App with Ignite Bowser and Unsplash API.
+
 [![CircleCI](https://circleci.com/gh/infinitered/ignite-bowser.svg?style=svg)](https://circleci.com/gh/infinitered/ignite-bowser)
 
 ## The latest and greatest boilerplate for Infinite Red opinions

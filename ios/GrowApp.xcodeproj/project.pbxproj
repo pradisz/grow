@@ -38,6 +38,9 @@
 		2213A5A9B26C4D859483EBD8 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 366A00DABEED49819A9F77DF /* Montserrat-SemiBoldItalic.ttf */; };
 		CDF0BD3008614D81913291C4 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8688825BA4E94FA9AEE1396A /* Montserrat-Thin.ttf */; };
 		AFF74D4E7E1E42EC94B29ACD /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9504723CD03647E0AA1E8590 /* Montserrat-ThinItalic.ttf */; };
+		BF15FCC46BF74B90B8169C55 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5171FB98A65B4C568F5C172A /* Poppins-Bold.ttf */; };
+		D5ED443095BE4D63BE888D46 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 818FCF6DC14A4BD8B97F2E54 /* Poppins-Regular.ttf */; };
+		FA44ACFC37454113A7983188 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 509CB8E6B1464FCDBAF36C7D /* Poppins-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +106,9 @@
 		366A00DABEED49819A9F77DF /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-SemiBoldItalic.ttf"; path = "../app/theme/fonts/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		8688825BA4E94FA9AEE1396A /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; name = "Montserrat-Thin.ttf"; path = "../app/theme/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		9504723CD03647E0AA1E8590 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-ThinItalic.ttf"; path = "../app/theme/fonts/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5171FB98A65B4C568F5C172A /* Poppins-Bold.ttf */ = {isa = PBXFileReference; name = "Poppins-Bold.ttf"; path = "../app/theme/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		818FCF6DC14A4BD8B97F2E54 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; name = "Poppins-Regular.ttf"; path = "../app/theme/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		509CB8E6B1464FCDBAF36C7D /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; name = "Poppins-SemiBold.ttf"; path = "../app/theme/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +262,9 @@
 				366A00DABEED49819A9F77DF /* Montserrat-SemiBoldItalic.ttf */,
 				8688825BA4E94FA9AEE1396A /* Montserrat-Thin.ttf */,
 				9504723CD03647E0AA1E8590 /* Montserrat-ThinItalic.ttf */,
+				5171FB98A65B4C568F5C172A /* Poppins-Bold.ttf */,
+				818FCF6DC14A4BD8B97F2E54 /* Poppins-Regular.ttf */,
+				509CB8E6B1464FCDBAF36C7D /* Poppins-SemiBold.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -419,6 +428,9 @@
 				2213A5A9B26C4D859483EBD8 /* Montserrat-SemiBoldItalic.ttf in Resources */,
 				CDF0BD3008614D81913291C4 /* Montserrat-Thin.ttf in Resources */,
 				AFF74D4E7E1E42EC94B29ACD /* Montserrat-ThinItalic.ttf in Resources */,
+				BF15FCC46BF74B90B8169C55 /* Poppins-Bold.ttf in Resources */,
+				D5ED443095BE4D63BE888D46 /* Poppins-Regular.ttf in Resources */,
+				FA44ACFC37454113A7983188 /* Poppins-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
