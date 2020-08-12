@@ -39,14 +39,21 @@ export const HomeScreen: React.FunctionComponent<HomeScreenProps> = observer(pro
   const fetchPhotos = () => photoStore.getPhotos(page, keyword)
   const fetchMore = React.useCallback(() => setShouldFetch(true), [])
 
-  // Reset current photo list in photoStore to initial page 1
+  // reset current photo list in photoStore, change topic every onRefresh
   const handleRefresh = () => {
     setRefresh(true)
+
+    // clear current photoStore
     photoStore.clearPhotos()
+
+    // set the keyword to change topic
     setKeyword(prevState =>
       prevState === "cactus" ? "houseplants" : prevState === "houseplants" && "cactus",
     )
+
+    // set the shouldFetch call to true
     fetchMore()
+
     setRefresh(false)
   }
 

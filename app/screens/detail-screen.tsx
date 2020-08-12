@@ -98,10 +98,10 @@ export const DetailScreen: React.FunctionComponent<DetailScreenProps> = observer
   const handleShare = async () => {
     const path = `${RNFS.DocumentDirectoryPath}/grow-unsplash-${id}.jpg`
 
-    // Download remote image and save it to path
+    // download remote image and save it to path
     await RNFS.downloadFile({ fromUrl: regular, toFile: `file://${path}` }).promise
 
-    // Converts the locally saved file data to base64
+    // converts the locally saved file data to base64
     const pathUrl = await RNFS.readFile(`file://${path}`, "base64")
 
     const shareOptions = {

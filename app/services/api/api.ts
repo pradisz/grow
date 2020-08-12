@@ -60,8 +60,8 @@ export class Api {
       if (problem) return problem
     }
 
+    // uppercase first char of caption
     const formatCaption = (text: string) => {
-      // Uppercase first char
       return text.charAt(0).toUpperCase() + text.slice(1)
     }
 
